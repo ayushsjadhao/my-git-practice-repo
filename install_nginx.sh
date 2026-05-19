@@ -7,4 +7,4 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 
-echo "NGINX istalled ..."
+echo "NGINX istalled ...."
