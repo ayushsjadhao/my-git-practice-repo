@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo update -y 
+echo " ==========INSTALLING NGINX====="
+
+sudo apt-get update -y 
 sudo apt install nginx -y 
 
 sudo systemctl start nginx
