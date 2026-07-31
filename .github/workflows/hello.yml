@@ -20,7 +20,7 @@ jobs:
       - name: say hello to username
         run: echo "Hello $USER"
         
-  details:
+  show-installed-packages-versions:
       runs-on: ubuntu-latest
       steps:
         - name: show what is the version of python, docker, etc
