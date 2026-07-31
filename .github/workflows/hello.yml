@@ -9,7 +9,7 @@ on:
 # these are jobs inside the workflow
 jobs:
 
-# this is the name of the job
+# this is the name of the job 1
   greet:
   # this is github runner, each job runs on a runner
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
 
       - name: say hello to username
         run: echo "Hello $USER"
-        
+  # this is the name of job 2     
   show-installed-packages-versions:
       runs-on: ubuntu-latest
       steps:
